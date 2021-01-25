@@ -6,12 +6,11 @@
 - [Intro](#Intro);
 - [Figma](#Figma);
 - [Technologies](#Technologies);
-- [Task lists](#task-lists);
 - [About me](#about-me);
 
 #### Live link
 
-* [Link to the project on GitHub Pages](https://)
+* [Link to the project on GitHub Pages](https://https://aklight.github.io/web_project_3/index.html)
 
 #### Intro
 
@@ -25,20 +24,14 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 - HTML5
  - semantic tags
+ - responsive design
 - BEM
 - CSS3
  - Pseudo selectors
  - Flex positioning
- - iframe
- - video tags
- - transformations
  - transitions
- - animation
+ - media queries
 
-#### Task lists
-
-1. Check the code for cross-compatibility and adding all the necessary vendor prefixes
-1. Design a form that allows users to submit a comment
 
 #### About me
 
