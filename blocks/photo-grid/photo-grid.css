@@ -1,10 +1,12 @@
 @import './__item/photo-grid__item.css';
 
 .photo-grid {
+    margin: 0 auto;
     display: grid;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    align-items: center;
 }
 
 @media screen and (min-width: 1280px) {

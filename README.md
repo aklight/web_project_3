@@ -10,7 +10,7 @@
 
 #### Live link
 
-* [Link to the project on GitHub Pages](https://https://aklight.github.io/web_project_3/index.html)
+* [Link to the project on GitHub Pages](https://aklight.github.io/web_project_3/index.html)
 
 #### Intro
 
