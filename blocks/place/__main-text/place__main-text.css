@@ -1,4 +1,9 @@
 .place__main-text {
     grid-area: text;
-   
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__main-text {
+        margin: 0 16px;
+    }
 }

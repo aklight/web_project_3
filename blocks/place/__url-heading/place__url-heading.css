@@ -2,12 +2,34 @@
     color: #AAAAAA;
     font-size: 12px;
     font-family: 'Inter Medium', "Arial", sans-serif;
-    line-height: 20px;
     letter-spacing: 0.2em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (max-width: 320px) {
+@media screen and (min-width: 1280px) {
+    .place__url-heading {
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__url-heading {
+        line-height: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
     .place__url-heading {
         line-height: 12px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__url-heading {
+        line-height: 12px;
+        margin-left: 16px;
+    }
+}
+
