@@ -1,16 +1,19 @@
 .place__website {
-    grid-area: website;
-    margin: 0;
+  grid-area: website;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 @media screen and (min-width: 1280px) {
-    .place__website {
-        padding-top: 20px;
-    }
+  .place__website {
+    padding-top: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .place__website {
-        padding-top: 20px;
-    }
+  .place__website {
+    padding-top: 20px;
+  }
 }
