@@ -1,22 +1,14 @@
 @import './__list/intro__list.css';
 @import './__text/intro__text.css';
 @import './__title/intro__title.css';
+@import './__subtitle/intro__subtitle.css';
 @import './__amount/intro__amount.css';
 
 .intro {
     max-width: 100%;
     margin: 0 auto;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 400;
 }
 
-.intro:last-of-type {
-    margin-top: 32px;
-    margin-bottom: 33px;
-    font-size: 16px;
-    line-height: 26,08px;
-}
 
 @media screen and (min-width: 1280px) {
     .intro {

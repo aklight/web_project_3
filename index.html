@@ -11,7 +11,7 @@
         <header class="header content">
             <img class="logo" src="images/logo.svg" alt="The USA"/>
             <div class="header__lang-container">
-                <a href="#" class="header__lang-link header__lang-link_style_underline opacity" target="_self">En</a>
+                <a href="#" class="header__lang-link header__lang-link_style_active opacity" target="_self">En</a>
                 <a href="#" class="header__lang-link opacity" target="_self">Es</a>
             </div>
         </header>
@@ -25,7 +25,7 @@
 
             <section class="intro">
                 <h2 class="intro__title">Know the country you live in a little better</h2>
-                <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
+                <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
                 <p class="intro__text">Need more action and adventure in your life instead of the same old routine?
                      From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through 
                      some unknown regions of your country. Leave the car at home and travel by bike starting in 
@@ -50,26 +50,52 @@
             </section>
 
             <section class="photo-grid">
-                <img class="photo-grid__item" src="images/photo-grid-highway.jpg" alt="highway near the sea" />
-                <img class="photo-grid__item" src="images/photo-grid-lake.jpg" alt="lake and sky" />
-                <img class="photo-grid__item" src="images/photo-grid-seagulls.jpg" alt="a lot of seagulls" />
-                <img class="photo-grid__item" src="images/photo-grid-boise.jpg" alt="forest and fog" />
-                <img class="photo-grid__item" src="images/photo-grid-fog.jpg" alt="fog on the lake" />
-                <img class="photo-grid__item" src="images/photo-grid-valley.jpg" alt="blue mountains" />
-                <img class="photo-grid__item" src="images/photo-grid-pass.jpg" alt="pass at mountains " />
-                <img class="photo-grid__item" src="images/photo-grid-twig.jpg" alt="flower on blured background" />
-                <img class="photo-grid__item" src="images/photo-grid-clouds.jpg" alt="clouds above the valley" />
-                <img class="photo-grid__item" src="images/photo-grid-oasis.jpg" alt="oasis at the disert" />
-                <img class="photo-grid__item" src="images/photo-grid-wires.jpg" alt="birds on wires" />
-                <img class="photo-grid__item" src="images/photo-grid-road.jpg" alt="road to the sky" />
+                <ul class="photo-grid__list">
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-highway.jpg" alt="highway near the sea" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-lake.jpg" alt="lake and sky" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-seagulls.jpg" alt="a lot of seagulls" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-boise.jpg" alt="forest and fog" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-fog.jpg" alt="fog on the lake" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-valley.jpg" alt="blue mountains" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-pass.jpg" alt="pass at mountains " />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-twig.jpg" alt="flower on blured background" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-clouds.jpg" alt="clouds above the valley" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-oasis.jpg" alt="oasis at the disert" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-wires.jpg" alt="birds on wires" />
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__image" src="images/photo-grid-road.jpg" alt="road to the sky" />
+                    </li>
+                </ul>
             </section>
 
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Maine</h2>
                     <img class="place__image" src="images/place-maine.jpg" alt="view of maine" />
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <span class="place__url-heading">Url</span>
                         <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" 
                         class="place__link opacity" target="_blank">global.llbean.com</a>
                     </div>
@@ -89,13 +115,13 @@
                             Average cost: $80-100.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">New Hampshire</h2>
                     <img class="place__image" src="images/place-new-hampshire.jpg" alt="view of maine hampshire" />
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <span class="place__url-heading">Url</span>
                         <a href="https://www.timberland.com/timberlandpro.html" class="place__link opacity" target="_blank">timberland.com</a>
                     </div>
                     <div class="place__main-text">
@@ -115,13 +141,13 @@
                             Average cost: $100-150.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">New York</h2>
                     <img class="place__image" src="images/place-new-york.jpg" alt="view of maine new-york" />
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <span class="place__url-heading">Url</span>
                         <a href="https://www.ge.com/about-us" class="place__link opacity" target="_blank">ge.com</a>
                     </div>
                     <div class="place__main-text">
@@ -136,13 +162,13 @@
                              dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Erie, PA</h2>
                     <img class="place__image" src="images/place-pennsylvania.jpg" alt="view of maine pennsylvania" />
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <span class="place__url-heading">Url</span>
                         <a href="https://www.fws.gov/refuge/erie" class="place__link opacity" target="_blank">www.fws.gov</a>
                     </div>
                     <div class="place__main-text">
@@ -161,13 +187,13 @@
                             The current cost of a Hershey's Chocolate bar: about 60¢.
                         </span>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Ohio</h2>
                     <img class="place__image" src="images/place-ohio.jpg" alt="view of maine ohio" />
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <span class="place__url-heading">Url</span>
                         <a href="https://www.cedarpoint.com" class="place__link opacity" target="_blank">cedarpoint.com</a>
                     </div>
                     <div class="place__main-text">
@@ -182,7 +208,7 @@
                             The cost of a daily ticket: about $100.
                         </span>
                     </div>
-                </div>
+                </article>
             </section>
 
             <section class="cover">
@@ -191,18 +217,17 @@
                     <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
                 </a>
             </section>
-            
-            <footer class="footer">
-                <nav class="footer__links">
-                    <a href="https://yandex.com/maps" class="footer__link opacity" target="_blank">Maps</a>
-                    <a href="https://yandex.com/weather/moscow" class="footer__link opacity" target="_blank">Weather</a>
-                    <a href="https://calendar.yandex.ru" class="footer__link opacity" target="_blank">Calendar</a>
-                </nav>
-                <p class="footer__copyright">
-                    &#169; 2020. Aleksandr Kudriavtsev
-                </p>  
-              </footer>
         </main>
+        <footer class="footer">
+            <nav class="footer__links">
+                <a href="https://yandex.com/maps" class="footer__link opacity" target="_blank">Maps</a>
+                <a href="https://yandex.com/weather/moscow" class="footer__link opacity" target="_blank">Weather</a>
+                <a href="https://calendar.yandex.ru" class="footer__link opacity" target="_blank">Calendar</a>
+            </nav>
+            <p class="footer__copyright">
+                &copy; 2020. Aleksandr Kudriavtsev
+            </p>  
+        </footer>
     </div>
 </body>
 </html>

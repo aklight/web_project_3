@@ -10,7 +10,5 @@
 @import '../blocks/photo-grid/photo-grid.css';
 @import '../blocks/places/places.css';
 @import '../blocks/place/place.css';
-@import '../blocks/footer/footer.css';
 @import '../blocks/opacity/opacity.css';
-
-
+@import '../blocks/footer/footer.css';

@@ -18,10 +18,3 @@
     font-style: normal;
     font-weight: 700;
 }
-
-@font-face {
-    font-family: 'Inter Medium';
-    src: url('./Inter-Medium.woff');
-    font-style: normal;
-    font-weight: 500;
-}
