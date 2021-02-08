@@ -1,72 +1,73 @@
-@import './__image/place__image.css';
-@import './__link/place__link.css';
-@import './__main-text/place__main-text.css';
-@import './__paragraph/place__paragraph.css';
-@import './__title/place__title.css';
-@import './__url-heading/place__url-heading.css';
-@import './__website/place__website.css';
-@import './__accent/place__accent.css';
+@import "./__image/place__image.css";
+@import "./__link/place__link.css";
+@import "./__main-text/place__main-text.css";
+@import "./__paragraph/place__paragraph.css";
+@import "./__paragraph/_size/place__paragraph_size_small.css";
+@import "./__title/place__title.css";
+@import "./__url-heading/place__url-heading.css";
+@import "./__website/place__website.css";
+@import "./__accent/place__accent.css";
 
 .place {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
     "title website"
     "image text";
 }
 
 @media screen and (min-width: 1280px) {
-    .place {
-        max-width: 984px;
-        margin-bottom: 80px;
-        grid-gap: 48px 40px;
-    }
+  .place {
+    max-width: 984px;
+    margin-bottom: 80px;
+    grid-gap: 48px 20px;
+  }
 
-    .place:last-of-type {
-        margin-bottom: 92px;
-    }
+  .place:last-of-type {
+    margin-bottom: 92px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .place {
-        max-width: 928px;
-        margin-bottom: 80px;
-        grid-gap: 48px 32px;
-    }
+  .place {
+    max-width: 928px;
+    margin-bottom: 80px;
+    grid-gap: 48px 20px;
+  }
 
-    .place:last-of-type {
-        margin-bottom: 92px;
-    }
+  .place:last-of-type {
+    margin-bottom: 92px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .place {
-        max-width: 720px;
-        margin-bottom: 72px;
-        grid-gap: 48px 28px;
-    }
+  .place {
+    max-width: 720px;
+    margin-bottom: 72px;
+    grid-gap: 48px 28px;
+  }
 
-    .place:last-of-type {
-        margin-bottom: 89px;
-    }
+  .place:last-of-type {
+    margin-bottom: 89px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .place {
-        max-width: 320px;
-        margin-bottom: 48px;
-        grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "text";
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-    }
+  .place {
+    max-width: 320px;
+    margin-bottom: 48px;
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text";
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
 
-    .place:last-of-type {
-        margin-bottom: 64px;
-    }
+  .place:last-of-type {
+    margin-bottom: 64px;
+  }
 }

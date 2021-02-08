@@ -1,7 +1,7 @@
-@import './__link/cover__link.css';
-@import './__subtitle/cover__subtitle.css';
-@import './__title/cover__title.css';
+@import "./__link/cover__link.css";
+@import "./__subtitle/cover__subtitle.css";
+@import "./__title/cover__title.css";
 
 .cover {
-    margin: 0 auto;
+  margin: 0 auto;
 }
